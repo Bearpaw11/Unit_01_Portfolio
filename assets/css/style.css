@@ -1,27 +1,53 @@
-header {
+.parent {
+    margin-top: -25px;
+    margin-left: -10px;
     background-color: white;
     height: 88px;
     width: 1398;
-    margin: -10px;
-    margin-top: -25px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     border-bottom: 2px solid #cccccc;
 }
 
-#myname {
-    width: 250px;
+.myname {
+    position: relative;
+    left: 60px;
+    width: 300px;
     height: 88px;
     background-color: #4aaaa5;
-    color: white;
     text-align: center;
-    padding-top: 20x;
-    padding-bottom: 20x;
 }
-li{
+
+.nametext {
+    color: white;
+    position: relative;
+    top: 25px;
+}
+li {
+    position: relative;
+    left: 890px;
+    bottom: 25px;
     list-style: none;
     display: inline-block;
 }
 
+#about {
+    padding-right: 10px;
+    color: #cccccc;
+    border-right: solid 2px #cccccc;
+}
+
+#portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #cccccc;
+    border-right: solid 2px #cccccc;
+}
+
+#contact {
+    color: #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 img {
     float: left;
     margin: 2px;
@@ -34,7 +60,7 @@ p {
 
 .bodybox {
     width: 800x;
-    height: 575px;
+    height: 500px;
     padding: 30px;
     border: 0px;
     margin: 50px;
@@ -43,24 +69,25 @@ p {
     color: #777777;
 }
 #bodyheader {
-    height: 100px;
+    height: 70px;
     margin-top: 0px;
     padding: 0px;
     width: 960x;
     border-bottom: 3px solid #cccccc;
     color: #4aaaa5;
     align-items: center;
-    background-color: red;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-footer {
+footer{
+    position: absolute;
+    bottom: 0;
     background-color: #666666;
     width: 1398px;
-    height: 80px;
+    height: 60px;
     margin: -10px;
     position: absolute;
     bottom: 0;
-    border-top: 10px solid #4aaaa5;
-
-  }
+    border-top: 8px solid #4aaaa5;
+}
   
