@@ -1,16 +1,19 @@
+body {
+    margin: 0;
+}
+
 .parent {
     margin-top: -25px;
-    margin-left: -10px;
     background-color: white;
     height: 88px;
-    width: 1398;
+    width: 100%;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     border-bottom: 2px solid #cccccc;
 }
 
 .myname {
-    position: relative;
-    left: 60px;
+    float: left;
+    margin-left: 50px;
     width: 300px;
     height: 88px;
     background-color: #4aaaa5;
@@ -20,12 +23,18 @@
 .nametext {
     color: white;
     position: relative;
-    top: 25px;
+    top: 20px;
+}
+
+header {
+    width: 100%;
+}
+ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 li {
-    position: relative;
-    left: 890px;
-    bottom: 25px;
     list-style: none;
     display: inline-block;
 }
@@ -80,14 +89,11 @@ p {
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #666666;
-    width: 1398px;
+    width: 100%;
     height: 60px;
-    margin: -10px;
-    position: absolute;
-    bottom: 0;
     border-top: 8px solid #4aaaa5;
 }
   
