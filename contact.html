@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<header>
-        <h1>Chris Behrens</h1> 
-        <nav>
+
+<body background="assets/images/cloth.png">
+    <header class="parent">
+        <div class="parent">
+            <div class="myname">
+                <h1 class="nametext">Chris Behrens</h1>
+            </div>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li id="about"><a href="index.html" style="color: inherit;" target="_blank">About</a></li>
+                <li id="portfolio"><a href="portfolio.html" style="color: inherit;" target="_blank">Portfolio</a></li>
+                <li id="contact"><a href="contact.html" style="color: inherit;" target="_blank">Contact</a></li>
             </ul>
-        </nav>   
+        </div>
     </header>
-<body>
-    <h1>Contact</h1> 
-    <form>
+    <div class="bodybox">
+        <h1 id="bodyheader">Contact</h1>
+        <form>
             Name <br>
-            <input type="text" name="name"><br>
-            Email <br>
-            <input type="text" email="email"><br>
-            Message <br>
-            <input type="email" name="message"><br>
-            <input type= "submit" value="Submit">
+            <input class="type" type="text" name="name"><br> Email <br>
+            <input class="type" type="text" email="email"><br> Message <br>
+            <input class="type2" type="email" name="message"><br>
+            <input class="push" type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+    </footer>
 </body>
-<footer>
-</footer>
+
 </html>
