@@ -80,6 +80,7 @@ li {
     padding: 30px;
     border: 0px;
     margin: 0 auto;
+    margin-bottom: 100px;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -90,6 +91,7 @@ li {
     height: 650px;
     padding: 30px;
     margin: 0 auto;
+    margin-bottom: 100px;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
