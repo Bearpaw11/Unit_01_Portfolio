@@ -13,13 +13,13 @@ body {
 
 p {
     padding-left: 10px;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 35px;
 }
 
 .myname {
     float: left;
-    margin-left: 50px;
+    margin-left: 284px;
     width: 300px;
     height: 88px;
     background-color: #4aaaa5;
@@ -38,7 +38,7 @@ header {
 
 ul {
     float: right;
-    margin-right: 50px;
+    margin-right: 275px;
     margin-top: 50px;
 }
 
@@ -68,7 +68,6 @@ li {
 
 #aboutimage {
     float: left;
-    padding: 5px;
     margin: 2px;
     padding-right: 5px;
     width: 325x;
@@ -76,22 +75,21 @@ li {
 }
 
 .bodybox {
-    width: 800x;
-    height: 800px;
+    width: 800px;
+    height: 900px;
     padding: 30px;
     border: 0px;
-    margin: 50px;
+    margin: 0 auto;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
 .bodybo {
-    width: 800x;
-    height: 1000px;
+    width: 800px;
+    height: 650px;
     padding: 30px;
-    border: 0px;
-    margin: 50px;
+    margin: 0 auto;
     background-color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -101,7 +99,7 @@ li {
     height: 70px;
     margin-top: 0px;
     padding: 0px;
-    width: 960x;
+    width: 800px;
     border-bottom: 3px solid #cccccc;
     color: #4aaaa5;
     align-items: center;
@@ -120,15 +118,14 @@ footer {
 .project {
     border: solid 2px #dddddd;
     float: left;
-    margin: 50px;
+    margin: 25px;
     width: 200px;
-    height: 300px;
-    overflow: auto;
+    height: 300x;
 }
 
 .project img {
-    width 200px;
-    height 200px;
+    width: 200px;
+    height: 200px;
 }
 
 .project a {
@@ -154,7 +151,7 @@ footer {
     padding-bottom: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 900px;
+    width: 800px;
 }
 
 .type2 {
@@ -162,7 +159,7 @@ footer {
     margin-bottom: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 900px;
+    width: 800px;
     height: 300px;
 }
 
